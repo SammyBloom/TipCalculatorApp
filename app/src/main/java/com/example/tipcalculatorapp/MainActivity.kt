@@ -17,6 +17,9 @@ class MainActivity : AppCompatActivity() {
     }
 
     private fun calculateTip() {
-        TODO("Not yet implemented")
+        val stringInTextField = binding.costOfService.text.toString()
+        val cost = stringInTextField.toDouble()
+
+//        Get the tip percentage
     }
 }
